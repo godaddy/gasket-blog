@@ -1,0 +1,13 @@
+<article>
+    <img class="logo" src="{{ '/assets/logo-cover.svg' | baseurl }}">
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.tagline }}</p>
+    <div class="social">
+		{%- if site.github -%}
+			<a class="btn" href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>
+		{%- endif -%}
+		{%- if site.twitter_username -%}
+			<a class="btn" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i></a>
+		{%- endif -%}
+	</div>
+</article>
