@@ -1,0 +1,32 @@
+{%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+<article>
+    <img class="logo" src="{{ '/assets/logo-cover.svg' | baseurl }}">
+</article>
+
+<section class="angled">
+	<article>
+		{%- if page.date -%}
+		<div class="post-date">
+			Published on {{ page.date | date: date_format }}
+		</div>
+		{%- endif -%}
+		<h1>{{ page.title }}</h1>
+		{%- if page.author -%}
+		<div class="post-author">
+			<img src="{{ '/assets/authors/' | baseurl }}{{ page.author_img }}"/>
+			<div class="author">
+				{{ page.author }}
+				<a href="https://www.twitter.com/{{ page.author_twitter }}">@{{ page.author_twitter }}</a>
+			</div>
+		</div>
+		{%- endif -%}
+
+		{%- if page.tags -%}
+		<div class="post-tags">
+			{%- for tag in page.tags -%}
+				<div class="tag">{{ tag }}</div>
+			{%- endfor -%}
+		</div>
+		{%- endif -%}
+	</article>
+</section>
