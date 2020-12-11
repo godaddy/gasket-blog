@@ -13,8 +13,10 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="{{ "/css/styles.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/css/prism.css" | relative_url }}">
 <title>Gasket: {{ page.title | default: site.title }}</title>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-37178807-20"></script>
+<script async src="{{ "/js/prism.js" | relative_url }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
