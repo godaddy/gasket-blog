@@ -277,7 +277,7 @@ This is because we have not added any documentation for our new route. Let's do 
 
 ### Route Documentation
 
-Navigate to `index.js` file and past the following above the `/orders` route definition:
+Navigate to the `index.js` file and paste the following above the `/orders` route definition:
 
 {% prism javascript %}
 /**
