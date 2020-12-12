@@ -26,7 +26,7 @@ As we outlined above, a preset is a predefined collection of plugins that is use
 
 This preset includes plugins to add Express to your application, enable http and https functionality, generate Swagger API documentation, and more.
 
-The full list of plugins used in the Gasket API Preset can be found [here](https://github.secureserver.net/gasket/gasket/blob/master/packages/gasket-preset-api/package.json#L27-L36).
+The full list of plugins used in the Gasket API Preset can be found [here](https://github.com/godaddy/gasket/blob/master/packages/gasket-preset-api/package.json#L17-L26).
 
 ## Sample API Project
 
