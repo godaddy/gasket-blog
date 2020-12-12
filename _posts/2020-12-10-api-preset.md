@@ -72,7 +72,7 @@ Gasket CLI will then execute a number of steps to start creating our API project
 
 ![finished](../assets/posts/api-preset/finished.png)
 
-Once complete, we will find our project under a newly created directory called `/fingerstache-coffee`. We can almost smell those coffee orders!
+Once complete, we will find our project under a newly created directory called `./fingerstache-coffee`. We can almost smell those coffee orders!
 
 ### Project Structure
 
