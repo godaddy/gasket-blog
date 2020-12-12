@@ -241,7 +241,7 @@ Here we are defining a route using the `GET` method. This route will log a messa
 
 ### Starting Up The API
 
-To start the API, run `npm run local` from the root of the `/fingerstache-coffee` directory (you may need to navigate to the project root directory, before running): 
+To start the API, run `npm run local` from the root of the `./fingerstache-coffee` directory (you may need to navigate to the project root directory, before running): 
 ```
 cd fingerstache-coffee
 ```
