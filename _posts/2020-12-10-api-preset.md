@@ -395,7 +395,7 @@ and navigate to the `/api-docs` page, we see our `/orders` endpoint documentatio
 
 ## Conclusion
 
-As you can see, the process of creating an API is much faster and easier, with the help of the Gasket API Preset. Out of the box, we can ensure that our API is documented with a generated API Swagger docs page. This will help to support ease of use for other application and services.
+As you can see, the process of creating an API is much faster and easier, with the help of the Gasket API Preset. Out of the box, we can ensure that our API is documented with a generated API Swagger docs page. This will help to support ease of use for other applications and services.
 
 Now let's get these coffee orders brewed!
 
