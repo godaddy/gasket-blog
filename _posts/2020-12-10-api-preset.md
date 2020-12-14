@@ -38,9 +38,9 @@ To demonstrate some of the functionality of this preset, let's create an API for
 
 First, we need to ensure that Node.js and the Gasket CLI are installed.
 
-```bash
+{% prism bash %}
 node -v && gasket -v
-```
+{% endprism %}
 
 Follow these instructions to install [Node.js](https://nodejs.org/en/download/) and/or [Gasket CLI](https://gasket.dev/#/packages/gasket-cli/README).
 
@@ -48,9 +48,9 @@ Follow these instructions to install [Node.js](https://nodejs.org/en/download/) 
 
 Let's start by creating a new API project with the Gasket CLI. Run the following command in a terminal:
 
-```bash
+{% prism bash %}
 gasket create fingerstache-coffee --presets @gasket/preset-api
-```
+{% endprism %}
 
 Here you can see that we are using the [create](https://gasket.dev/#/packages/gasket-cli/README?id=create-command) command to create our `fingerstache-coffee` project, and passing in the `@gasket/preset-api` as a [preset](https://gasket.dev/#/README?id=presets).
 
@@ -79,15 +79,15 @@ Once complete, we will find our project under a newly created directory called `
 ### Project Structure
 
 Let's open our new API project in our favorite code editor. Navigate to the project folder using:
-```
+{% prism bash %}
 cd fingerstache-coffee
-```
+{% endprism %}
 
 Here you will see the following structure:
 
 ![folder structure](../assets/posts/api-preset/folder-structure.png)
 
-#### Package.json
+#### package.json
 
 Here we can see the `name` and `description` field were populated using the responses we provided in the previous steps.
 
@@ -140,7 +140,7 @@ Next, you'll see a handful of script commands. You can learn more about these ga
 
 Lastly, you will see a list of our dependencies, dev dependencies and additional eslint config properties. One thing to point out here is the inclusion of the `@gasket/preset-api` dependency.
 
-#### Gasket.config.js
+#### gasket.config.js
 
 In the `gasket.config.js`, we will find 3 main properties:
 
@@ -177,7 +177,7 @@ module.exports = {
 }
 {% endprism %}
 
-#### Routes Directory
+#### /routes Directory
 
 We will also find a directory at the root of our project called `/routes`. This folder contains our route definitions. We can see a file inside of this directory called `index.js`. This file contains a default route that has been automatically documented with Swagger documentation syntax.
 
@@ -244,17 +244,17 @@ Here we are defining a route using the `GET` method. This route will log a messa
 ### Starting Up The API
 
 To start the API, run `npm run local` from the root of the `./fingerstache-coffee` directory (you may need to navigate to the project root directory, before running): 
-```
+{% prism bash %}
 cd fingerstache-coffee
-```
+{% endprism %}
 
 Once the API is running, navigate to http://localhost:8080/default in a browser to see the default welcome message:
 
-```json
+{% prism json %}
 {
   "message": "Welcome to your default route..."
 }
-```
+{% endprism %}
 
 Next, navigate to http://localhost:8080/orders, and we see the orders response object.
 
