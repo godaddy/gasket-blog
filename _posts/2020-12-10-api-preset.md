@@ -16,7 +16,7 @@ In this article, we'll learn how to create a simple API with NodeJS and Express,
 
 ### What is Gasket?
 
-Gasket is a framework maker, which creates the platform of patterns, integrations, and functionality that can be used to create JavaScript web applications and API's. Along with scaffolding and application generation, Gasket also provides the essential elements for libraries and layers of apps to integrate together during runtime.
+Gasket is a framework maker, which creates the platform of patterns, integrations, and functionality that can be used to create JavaScript web applications and APIs. Along with scaffolding and application generation, Gasket also provides the essential elements for libraries and layers of apps to integrate together during runtime.
 
 It is built on a plugin architecture that allows the users to include functionality through the installation of plugins.
 
