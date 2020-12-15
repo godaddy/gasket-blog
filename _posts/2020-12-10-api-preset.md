@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating a Node.js API with the Gasket API Preset in 10 minutes or less!"
-date:   2020-11-03 11:00:00 -0700
+date:   2020-12-15 10:30:00 -0700
 featured_img: ../assets/posts/api-preset/cover.jpg
 author: Kawika Bader
 author_twitter: kawikabader
