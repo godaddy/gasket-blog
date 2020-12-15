@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Creating a NodeJS API with the Gasket API Preset in 10 minutes or less!"
+title:  "Creating a Node.js API with the Gasket API Preset in 10 minutes or less!"
 date:   2020-11-03 11:00:00 -0700
 featured_img: ../assets/posts/api-preset/cover.jpg
 author: Kawika Bader
 author_twitter: kawikabader
 author_img: kawikabader.jpg
 tags: [Node.js, Swagger, API, How-To, Javascript]
-excerpt: Create a simple API with NodeJS and Express, using the Gasket API Preset. We'll also get a glimpse into generating API documentation with the new Gasket Swagger Plugin!
+excerpt: Create a simple API with Node.js and Express, using the Gasket API Preset. We'll also get a glimpse into generating API documentation with the new Gasket Swagger Plugin!
 ---
 
-In this article, we'll learn how to create a simple API with NodeJS and Express, using the Gasket API Preset. We'll also get a glimpse into generating API documentation with the new Gasket Swagger Plugin!
+In this article, we'll learn how to create a simple API with Node.js and Express, using the Gasket API Preset. We'll also get a glimpse into generating API documentation with the new Gasket Swagger Plugin!
 
 ## Background
 
@@ -42,7 +42,7 @@ First, we need to ensure that Node.js and the Gasket CLI are installed.
 node -v && gasket -v
 ```
 
-Follow these instructions to install [Node.js](https://nodejs.org/en/download/) and/or [Gasket CLI](https://gasket.dev/#/packages/gasket-cli/README).
+Gasket requires Node.js version 8 or newer. Follow these instructions to install [Node.js](https://nodejs.org/en/download/) and/or [Gasket CLI](https://gasket.dev/#/packages/gasket-cli/README).
 
 ### Create A New API Project
 
