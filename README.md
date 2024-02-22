@@ -1,36 +1,12 @@
 # Gasket Blog
 
-This is the public blog for Gasket and other related content.
+The blog has been migrated to https://gasket.dev/blog/.
 
-You can view this site at [gasket.dev][gasket].
+Please visit the new site for the latest news and updates.
 
-## Getting Started
+## Contributing
 
-1. Clone or Fork repo 
+Blog posts should be created in the main repository.
 
-2. Install Jekyll and bundler gems
-   ```
-   gem install jekyll bundler
-   ```
+https://github.com/godaddy/gasket/tree/main/site/blog
 
-3. Change into blog directory 
-   ```
-   cd gasket-blog
-   ```
-
-4. Build the site and make it available on a local server.
-    ```
-    bundle exec jekyll serve
-    ```
-
-5. Browse to ```http://localhost:4000```
-
-## Contribute
-Have an awesome example of Gasket? Did you build a sweet plugin or preset that other people should know about? Contribute a blog post by following the [contribution guide][contribution].
-
-## License
-MIT/X11.
-
-
-[gasket]: https://gasket.dev
-[contribution]: https://github.com/godaddy/gasket/blob/master/CONTRIBUTING.md
